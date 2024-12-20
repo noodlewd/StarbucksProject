@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  background: linear-gradient(to right, rgb(214, 244, 195), antiquewhite);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lobster", serif;
+  letter-spacing: 3px;
+  color: #098c57;
+  text-shadow: #267c686a 3px 5px;
+  font-weight: 100;
+  font-size: 70px;
+}
+
+#menu > h2 {
+  font-family: "Lobster", serif;
+  letter-spacing: 2px;
+  color: #098c57;
+  font-size: 30px;
+  line-height: 100px;
+}
+
+.img_text > p {
+  font-weight: bold;
+}
+
+.star {
+  float: let;
+}
+
+#order-summary {
+  width: auto;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+/* 여기에 #menu와 #order-summary의 스타일을 추가하세요. */
+/* 버튼과 관련된 스타일은 아래의 예시를 참고하여 완성하세요. */
+
+button {
+  background-color: #00704a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005936;
+}
+
+.prd_list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  line-height: 5px;
+}
+
+#parti_list {
+  text-align: center;
+  flex: 1 1 auto;
+  margin-bottom: 30px;
+}
+
+.prd_img span img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.prd_img span img:hover {
+  cursor: pointer;
+}
+
+.prd_text p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+#prd_total {
+  margin-bottom: 50px;
+}
+
+#order-summary {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: auto;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#order-summary > h2 {
+  font-family: "Lobster", serif;
+  letter-spacing: 2px;
+  color: #098c57;
+  font-size: 30px;
+  line-height: 100px;
+}
+#order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.item-order {
+  display: flex;
+}
+.item-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>스타벅스 주문 시스템</title>
+    <!-- 여기에 styles.css 파일을 로드하는 코드를 추가하세요 -->
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+    </style>
+  </head>
+  <body>
+    <h1><img class="star" src="./img/logo.png" alt="로고" />&nbspStarbucks&nbsp&nbsp&nbsp&nbsp&nbsp</h1>
+    <div id="menu">
+      <h2>🥤Menu&nbsp&nbsp&nbsp</h2>
+      <ul class="prd_list"></ul>
+      <ul class="prd_list"></ul>
+      <!-- 메뉴 아이템이 여기에 추가될 것입니다 -->
+      <!-- <div id="prd_total">
+        <ul id="prd_list">
+          <li id="parti_list">
+            <div class="prd_img">
+              <span>
+                <img src="./img/americano.jpg" alt="커피" />
+                <div class="img_text">
+                  <p>￦4,100</p>
+                </div>
+              </span>
+            </div>
+            <div class="prd_text">
+              <p>아이스 카페 아메리카노</p>
+              <button class="order-add">주문 추가</button>
+            </div>
+          </li>
+          <li id="parti_list">
+            <div class="prd_img">
+              <span
+                ><img src="./img/latte.jpg" alt="커피" />
+                <div class="img_text">
+                  <p>￦4,100</p>
+                </div></span
+              >
+            </div>
+            <div class="prd_text">
+              <p>아이스 카페라떼</p>
+              <button class="order-add">주문 추가</button>
+            </div>
+          </li>
+          <li id="parti_list">
+            <div class="prd_img">
+              <span
+                ><img src="./img/cafuchino.jpg" alt="커피" />
+                <div class="img_text">
+                  <p>￦4,100</p>
+                </div></span
+              >
+            </div>
+            <div class="prd_text">
+              <p>아이스 카푸치노</p>
+              <button class="order-add">주문 추가</button>
+            </div>
+          </li>
+          <li id="parti_list">
+            <div class="prd_img">
+              <span
+                ><img src="./img/caramel.jpg" alt="커피" />
+                <div class="img_text">
+                  <p>￦4,100</p>
+                </div></span
+              >
+            </div>
+            <div class="prd_text">
+              <p>아이스 카라멜 마끼아또</p>
+              <button class="order-add">주문 추가</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="prd_total">
+        <ul id="prd_list">
+          <li id="parti_list">
+            <div class="prd_img">
+              <span
+                ><img src="./img/더블 에스프레소 칩 프라푸치노.jpg" alt="커피" />
+                <div class="img_text">
+                  <p>￦4,100</p>
+                </div></span
+              >
+            </div>
+            <div class="prd_text">
+              <p>더블 칩 프라푸치노</p>
+              <button class="order-add">주문 추가</button>
+            </div>
+          </li>
+          <li id="parti_list">
+            <div class="prd_img">
+              <span
+                ><img src="./img/에스프레소 프라푸치노.jpg" alt="커피" />
+                <div class="img_text">
+                  <p>￦4,100</p>
+                </div></span
+              >
+            </div>
+            <div class="prd_text">
+              <p>에스프레소 프라푸치노</p>
+              <button class="order-add">주문 추가</button>
+            </div>
+          </li>
+          <li id="parti_list">
+            <div class="prd_img">
+              <span
+                ><img src="./img/자바 칩 프라푸치노.jpg" alt="커피" />
+                <div class="img_text">
+                  <p>￦4,100</p>
+                </div></span
+              >
+            </div>
+            <div class="prd_text">
+              <p>자바 칩 프라푸치노</p>
+              <button class="order-add">주문 추가</button>
+            </div>
+          </li>
+          <li id="parti_list">
+            <div class="prd_img">
+              <span
+                ><img src="./img/카라멜 프라푸치노.jpg" alt="커피" />
+                <div class="img_text">
+                  <p>￦4,100</p>
+                </div></span
+              >
+            </div>
+            <div class="prd_text">
+              <p>카라멜 프라푸치노</p>
+              <button class="order-add">주문 추가</button>
+            </div>
+          </li>
+        </ul>
+      </div> -->
+    </div>
+
+    <div id="order-summary">
+      <h2>Order</h2>
+      <ul id="order-list"></ul>
+      <p>총 가격: ₩<span id="total-price">0</span></p>
+      <button id="submit-order">주문 제출</button>
+    </div>
+
+    <!-- 여기에 script.js 파일을 로드하는 코드를 추가하세요 -->
+    <script src="./script.js"></script>
+  </body>
+</html>
